@@ -75,13 +75,13 @@
                                     <td>
                                         <a class="btn btn-info text-white btn-sm" href="{{route('customers.edit',
                                         [$customer->id])}}">Ubah</a>
-                                        <!-- <form onsubmit="return confirm('Anda yakin menghapus data ini ?')"
+                                         <form onsubmit="return confirm('Anda yakin menghapus data ini ?')"
                                             class="d-inline" action="{{route('customers.destroy', [$customer->id])}}"
                                             method="POST">
                                             @csrf
                                             <input type="hidden" name="_method" value="DELETE">
                                             <input type="submit" value="Hapus" class="btn btn-danger btn-sm">
-                                        </form> -->
+                                        </form> 
                                     </td>
                                 </tr>
                                 @endforeach
